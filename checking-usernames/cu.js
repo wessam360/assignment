@@ -8,7 +8,7 @@ for (let i = 0; i < new_users.length; i++) {
         b = current_users[j].toLowerCase();
         l = !(a == b);
         if (a == b || new_users[i] == current_users[i]) {
-            console.log(`enter a new name.${new_users[i]} is used`);
+            console.log(`enter a new name.${new_users[i]} is in use`);
             break;
         }
     }

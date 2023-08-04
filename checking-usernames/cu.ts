@@ -6,9 +6,9 @@ for(let i=0;i<new_users.length;i++){
 a=new_users[i].toLowerCase();
 b=current_users[j].toLowerCase()
 l=!(a==b);
-        if(a==b || new_users[i]==current_users[i]){
+        if(a==b){
     
-        console.log(`enter a new name.${new_users[i]} is used`);
+        console.log(`enter a new name.${new_users[i]} is in use`);
         break;
         }
     }
